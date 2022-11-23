@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>El-Zanaty</title>
+    <link href="../../css/contact.css" rel="stylesheet" />
+    <link href="../../css/form.css" rel="stylesheet" />
+    <link href="../../css/models.css" rel="stylesheet" />
+    <link href="../../css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="topnav">
+      <div>
+        <a href="../../vehicles.html">
+          <img
+            id="logo"
+            class="nav-content"
+            src="../../img/Check-Engine-Light-Logo.png"
+        /></a>
+      </div>
+      <a id="navtitle" class="nav-content" href="../../home.html"
+        >El-Zanaty Motors</a
+      >
+      <a id="order" class="nav-content" href="../../form.html">Order Now</a>
+      <a id="contact" class="nav-content" href="../../contact.html"
+        >Contact Us</a
+      >
+    </nav>
+    <div class="container models-container">
+      <div class="model" id="18" onclick="openModal(this.id)">
+        <img class="cars-images" src="../../img/mercedes/A-class.jpg" />
+        <div class="overlay">
+          <div class="overlay-text">A-Class</div>
+        </div>
+      </div>
+      <div class="model" id="19" onclick="openModal(this.id)">
+        <img class="cars-images" src="../../img/mercedes/C-Class.jpg" />
+        <div class="overlay">
+          <div class="overlay-text">C-Class</div>
+        </div>
+      </div>
+      <div class="model" id="20" onclick="openModal(this.id)">
+        <img class="cars-images" src="../../img/mercedes/G-Class.jpg" />
+        <div class="overlay">
+          <div class="overlay-text">G-Class</div>
+        </div>
+      </div>
+      <div class="model" id="21" onclick="openModal(this.id)">
+        <img class="cars-images" src="../../img/mercedes/S-Class.jpg" />
+        <div class="overlay">
+          <div class="overlay-text">S-Class</div>
+        </div>
+      </div>
+      <div class="model" id="22" onclick="openModal(this.id)">
+        <img class="cars-images" src="../../img/mercedes/glc.jpg" />
+        <div class="overlay">
+          <div class="overlay-text">GLC</div>
+        </div>
+      </div>
+      <div class="model" id="23" onclick="openModal(this.id)">
+        <img class="cars-images" src="../../img/mercedes/gls.jpg" />
+        <div class="overlay">
+          <div class="overlay-text">GLS</div>
+        </div>
+      </div>
+    </div>
+    <div class="cars-modal invisible" id="modal">
+      <div class="close" onclick="openModal()">X</div>
+      <div class="car-info">
+        <h3 id="modal-header"></h3>
+      </div>
+      <pre class="car-info-paragraph" id="modal-description"></pre>
+    </div>
+    <script src="/util/modal.js"></script>
+  </body>
+</html>

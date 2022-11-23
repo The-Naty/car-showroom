@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    margin: 0;
+}
+.center {
+   display: block;
+   margin-top:5%;
+  margin-left: 20%;
+  margin-right: auto;
+  width: 40%;
+   color: floralwhite;
+   font-family: "courier";
+}
+.portrait:hover {
+	opacity: 0.8;
+}
+.portrait {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+}
+
+  
+.topnav {
+    width: 100%;
+ 
+    top: 0;
+    left: 0;
+ 
+    background-color: rgba(10, 10, 10,0.8);
+
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+
+    display:flex;
+    align-items: center;
+    
+ }
+
+ #logo {
+
+    padding: 10px;
+    width: 50px;
+    height: 40px;
+  }
+ .nav-content {
+  
+    width: 10%;
+    color: rgb(210, 210, 210);
+ 
+    text-align: center;
+ 
+    text-decoration: none;
+    justify-self: flex-end;
+
+ }
+ 
+ #navtitle {
+    width:100%;
+    justify-self: center;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+ }
+ .nav-pages{
+    width: 50px;
+    margin-left:auto;
+ }
+ .explore{
+      text-decoration: none; 
+      color: orange; 
+ }
+.explore:hover { text-decoration: none; color:rgb(255, 255, 255); }
+

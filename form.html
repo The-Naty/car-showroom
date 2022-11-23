@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>El-Zanaty</title>
+    <link href="css/form.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="topnav form">
+      <img
+        id="logo"
+        class="nav-content"
+        src="img/Check-Engine-Light-Logo.png"
+      />
+      <a id="navtitle" class="nav-content" href="home.html">El-Zanaty Motors</a>
+      <a id="order" class="nav-content" href="form.html">Order Now</a>
+      <a id="contact" class="nav-content" href="contact.html">Contact Us</a>
+    </nav>
+    <div class="container">
+      <form action="server/form.php" method="post">
+        <label for="car-manufacturer">Car Manufacturer</label>
+
+        <select name="car-manufacturer" id="car-manufacturer">
+          <option value="" selected="selected">Car Manufacturer</option>
+        </select>
+        <label for="car-model">Car Model Name</label>
+
+        <select name="car-model" id="car-model">
+          <option value="" selected="selected">Car Model</option>
+        </select>
+
+        <label for="fname">Your Address</label>
+        <input
+          type="text"
+          id="address"
+          name="address"
+          placeholder="Your Address.."
+        />
+
+        <label for="lname">Your Email</label>
+        <input type="text" id="email" name="email" placeholder="Your Email.." />
+
+        <label for="lname">Contact Number</label>
+        <input
+          type="text"
+          id="contactnumber"
+          name="contactnumber"
+          placeholder="Your Number.."
+        />
+
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+    <script src="util/dropdown.js"></script>
+  </body>
+</html>

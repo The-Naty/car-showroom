@@ -1,0 +1,49 @@
+body{
+    background-image: url(../img/form-background.jfif);
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+label{
+    color: rgba(255, 255, 255,0.8);
+    font-family: "Helvetica Neue",Helvetica;
+}
+#form{
+    background-color: rgba(10, 10, 10,0.8);
+}
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid rgb(42, 42, 42);
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 5px; 
+    margin-bottom: 15px; 
+    resize: vertical 
+  }
+  
+  input[type=submit] {
+    background-color: rgba(201, 201, 201, 0.817);
+    color: rgba(25, 25, 25, 0.75);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #606060;
+  }
+  
+  .container {
+    width: 50%;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 5px;
+    background-color: rgba(50, 50, 50, 0.5);
+    padding: 20px;
+    -webkit-box-shadow: 1px 1px 2px 3px rgba(0, 0, 0, 0.1);  
+  -moz-box-shadow:    1px 1px 2px 3px rgba(0, 0, 0, 0.1);  
+  box-shadow:         1px 1px 2px 3px rgba(0, 0, 0, 0.1);
+  }
